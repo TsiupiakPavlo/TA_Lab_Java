@@ -1,34 +1,31 @@
 package first;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.util.InputMismatchException;
+import java.util.Scanner;
 
 public class Main {
 
-	public static int squareRectangle(int a, int b) {
-		if (a < 0 || b < 0)
-			throw new IllegalArgumentException("Arguments cannot be negative");
-		return a * b;
-	}
+    public static int squareRectangle(int a, int b) {
+        if (a < 0 || b < 0) {
+            throw new IllegalArgumentException("Arguments cannot be negative");
+        }
+        return a * b;
+    }
 
-	public static void main(String[] args) {
-		try (BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in))) {
-			System.out.println("Enter first number:");
-			int number1 = Integer.parseInt(bufferedReader.readLine());
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        try {
+            System.out.println("Enter first number:");
+            int numberA = scanner.nextInt();
 
-			System.out.println("Enter second number:");
-			int number2 = Integer.parseInt(bufferedReader.readLine());
+            System.out.println("Enter second number:");
+            int numberB = scanner.nextInt();
 
-			System.out.println("The area of the rectangle is " + squareRectangle(number1, number2));
-		} catch (IOException e) {
-			e.printStackTrace();
-		} catch (NumberFormatException e) {
-			System.out.println("Nonnumeric value");
-		} catch (IllegalArgumentException e) {
-			System.out.println(e.getMessage());
-		}
+            System.out.println("The area of the rectangle is " + squareRectangle(numberA, numberB));
+        } catch (InputMismatchException e) {
+            System.out.println("Argument must be number");
+        }
 
-	}
+    }
 
 }

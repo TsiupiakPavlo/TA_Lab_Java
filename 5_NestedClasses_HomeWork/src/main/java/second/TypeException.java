@@ -5,6 +5,5 @@ public class TypeException extends Exception {
 		super(msg);
 	}
 
-	public TypeException() {
-	}
+
 }
