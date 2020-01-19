@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="_3_OOP_HomeWork" />
+        <module name="_3_OOP_HomeWork_Game" />
+        <module name="_3_OOP_HomeWork_HardwareStore" />
+        <module name="_5_NestedClasses_HomeWork" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11" />

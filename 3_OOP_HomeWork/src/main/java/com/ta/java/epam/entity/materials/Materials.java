@@ -1,3 +1,7 @@
+package com.ta.java.epam.entity.materials;
+
+import com.ta.java.epam.entity.Goods;
+
 abstract class Materials extends Goods {
 
     int weight;

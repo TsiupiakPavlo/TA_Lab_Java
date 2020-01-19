@@ -1,3 +1,7 @@
+package com.ta.java.epam.entity.santekhnika;
+
+import com.ta.java.epam.Code;
+
 public class Rakoviny extends Santekhnika implements Code {
 
     private String montag;

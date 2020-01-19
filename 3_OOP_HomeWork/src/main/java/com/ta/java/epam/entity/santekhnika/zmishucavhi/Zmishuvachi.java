@@ -1,6 +1,11 @@
-abstract class Zmishuvachi extends Santekhnika implements Code{
+package com.ta.java.epam.entity.santekhnika.zmishucavhi;
 
-    String mechanism;
+import com.ta.java.epam.Code;
+import com.ta.java.epam.entity.santekhnika.Santekhnika;
+
+public abstract class Zmishuvachi extends Santekhnika implements Code {
+
+    protected String mechanism;
 
     public Zmishuvachi(String name, int price, String brandCountry, int guarantee, String mechanism) {
         super(name, price, brandCountry, guarantee);

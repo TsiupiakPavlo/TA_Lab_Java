@@ -1,7 +1,11 @@
-abstract class Santekhnika extends Goods{
+package com.ta.java.epam.entity.santekhnika;
 
-    String brandCountry;
-    int guarantee;
+import com.ta.java.epam.entity.Goods;
+
+public abstract class Santekhnika extends Goods {
+
+    protected String brandCountry;
+    protected int guarantee;
 
     public Santekhnika(String name, int price, String brandCountry, int guarantee) {
         this.name = name;

@@ -1,3 +1,5 @@
+package com.ta.java.epam.entity.santekhnika.zmishucavhi;
+
 public class ZmishuvachVanna extends Zmishuvachi {
 
     private String montag;

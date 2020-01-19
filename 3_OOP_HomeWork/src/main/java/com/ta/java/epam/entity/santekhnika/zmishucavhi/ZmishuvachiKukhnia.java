@@ -1,3 +1,5 @@
+package com.ta.java.epam.entity.santekhnika.zmishucavhi;
+
 public class ZmishuvachiKukhnia extends Zmishuvachi {
 
     private String podvodka;
