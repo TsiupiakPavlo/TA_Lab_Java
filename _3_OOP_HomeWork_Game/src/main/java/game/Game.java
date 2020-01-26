@@ -82,9 +82,6 @@ public class Game {
 
             if (player.isKilled()) {
                 System.out.println("You died on your journey ... GAME OVER");
-
-                return;
-
             }
         }
 
@@ -134,7 +131,7 @@ public class Game {
             case "chest":
                 openChest();
                 break;
-            case "healme":
+            case "heal":
                 healPlayer();
                 break;
             case "quit":
@@ -145,11 +142,6 @@ public class Game {
                 break;
         }
     }
-
-
-    /**
-     * Commands methods
-     */
 
     public static void showHelp() {
 

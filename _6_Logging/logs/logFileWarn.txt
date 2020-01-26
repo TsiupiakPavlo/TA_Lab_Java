@@ -1,0 +1,2 @@
+[DEBUG] 2020-01-26 20:20:25.321 SLF4JExample:10 - Debug log message 
+[INFO ] 2020-01-26 20:20:25.325 SLF4JExample:11 - Info log message 

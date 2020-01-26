@@ -1,0 +1,119 @@
+
+?squid:S1444"*Make this "public static scan" field final(ªÜÖÀ
+Ksquid:S1444"1Make this "public static playerInput" field final(×™×Îıÿÿÿÿ
+Fsquid:S1444",Make this "public static player" field final(“Èˆ şÿÿÿÿ
+|"squid:ClassVariableVisibilityCheck"PMake scan a static final constant or non-public and provide accessors if needed.(ªÜÖÀ
+ˆ"squid:ClassVariableVisibilityCheck"WMake playerInput a static final constant or non-public and provide accessors if needed.(×™×Îıÿÿÿÿ
+ƒ"squid:ClassVariableVisibilityCheck"RMake player a static final constant or non-public and provide accessors if needed.(“Èˆ şÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ñ˜Šßøÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(­¸”ô
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(…à«ºúÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(¯¯–ÿÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(îºİú
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(é½Áı
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(›Äæ÷üÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(’Ïœ´
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ø€ü€şÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÒŞ©Èÿÿÿÿÿ
+L
+squid:S106"9Replace this use of System.out or System.err by a logger.(´Å•/
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ßÃÉ³
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(¸£éòúÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ª™› 
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ú¸µ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(„ˆÜÜùÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(†ÈÎë
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(õ•¸·
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ƒ³†˜üÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ù°´çûÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÿ¦ÏÂûÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ğç‘„ÿÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(úõ–áùÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(¥Ÿë
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(£¥˜·úÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(’›…
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(‰º•¨ûÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(°ÕãÆıÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(²â´
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(õÌ²Æ
+Gsquid:S1172"2Remove this unused method parameter "currentRoom".(„—ø°
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(´Ùı›ûÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(£ú««ùÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(²ñ±á
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ñì¢…
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(íê­…
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(°Ü
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(†®¥ûşÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ü‰úœ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ªü–çøÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÂÎæ¬
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ê¾Ğ¶ıÿÿÿÿ
+Csquid:S1125")Remove the literal "false" boolean value.(Òâ›ÿùÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(Òâ›ÿùÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(×ÂÇĞüÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(“‘òñüÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(•Ñ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(àñŒÛ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(õéÄıøÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(¯É¸“øÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(çòé
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(—ø±áÿÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(Á«ñ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(çÃÇê
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(É»«­ùÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(²µ‡Å
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(³Éîµøÿÿÿÿ
