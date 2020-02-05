@@ -267,7 +267,7 @@ public class Game {
                 if (escape == false) System.out.println("You're not lucky ! " + monster.getName() + " spotted you");
                 loop = false;
             } else {
-                System.out.println("Please choose one option! ");
+                System.out.println("Please choose com.ta.java.epam.one option! ");
             }
 
         } while (loop);

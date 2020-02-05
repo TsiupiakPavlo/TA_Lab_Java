@@ -60,7 +60,7 @@ public class Main {
         System.out.println();
         System.out.println("clear:");
         Deque<String> deque = new ArrayDeque<String>();
-        deque.addLast("four");
+        deque.addLast("com.ta.java.epam.four");
         deque.addLast("score");
         deque.addLast("and");
         deque.addLast("seven");
@@ -78,7 +78,7 @@ public class Main {
         System.out.println(deque);
         deque.addFirst("score");
         System.out.println(deque);
-        deque.addFirst("four");
+        deque.addFirst("com.ta.java.epam.four");
         System.out.println(deque);
 
         deque.addLast("seven");
@@ -106,7 +106,7 @@ public class Main {
         deque.addLast("seven");
         deque.addFirst("score");
         deque.addLast("years");
-        deque.addFirst("four");
+        deque.addFirst("com.ta.java.epam.four");
         deque.addLast("ago");
         Iterator<String> itr = deque.iterator();
         while (itr.hasNext()) {
