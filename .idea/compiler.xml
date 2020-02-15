@@ -13,7 +13,10 @@
         <module name="9_CollectionsEnums" />
         <module name="8_Generics" />
         <module name="3_OOP_HomeWork_Game" />
+        <module name="11_String" />
+        <module name="13_IO" />
         <module name="8_ArraysCollections" />
+        <module name="12_Annotation_Reflection" />
       </profile>
     </annotationProcessing>
   </component>

@@ -145,7 +145,7 @@ public class Game {
 
     public static void showHelp() {
 
-        System.out.println("help - List of all com.ta.java.epam.two.commands");
+        System.out.println("help - List of all com.ta.java.epam.strings.regex.two.commands");
         System.out.println("east, west, north, south - Moves around different rooms.");
         System.out.println("info - Shows player informations.");
         System.out.println("inventory - Shows equipments that you own.");
@@ -197,7 +197,7 @@ public class Game {
 
             if (currentRoom.getChest() != null) {
                 System.out.println("There are a chest in this room!");
-                System.out.println("You want to open it ? Check items ? Try 'chest' com.ta.java.epam.two.command ");
+                System.out.println("You want to open it ? Check items ? Try 'chest' com.ta.java.epam.strings.regex.two.command ");
             }
 
         } else {
@@ -267,7 +267,7 @@ public class Game {
                 if (escape == false) System.out.println("You're not lucky ! " + monster.getName() + " spotted you");
                 loop = false;
             } else {
-                System.out.println("Please choose com.ta.java.epam.one option! ");
+                System.out.println("Please choose com.ta.java.epam.regex.one option! ");
             }
 
         } while (loop);
