@@ -1,7 +1,7 @@
 
 # TA Java Lab №12 Tsiupiak Pavlo
 
-> Here is all my home work sorted by modules for TA Java Lab №12
+> There are separate modules for all homework projects in this repository.
 
 ## Status of work
 
