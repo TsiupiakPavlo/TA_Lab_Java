@@ -1,12 +1,11 @@
-package model;
+package annotations.model;
 
-import annotation.ControlledObject;
-import annotation.StartObject;
-import annotation.StopObject;
-import annotation.ValueObject;
+import annotations.annotation.ControlledObject;
+import annotations.annotation.StartObject;
+import annotations.annotation.StopObject;
+import annotations.annotation.ValueObject;
 import org.apache.log4j.Logger;
 
-import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
 @ControlledObject(name = "droid")

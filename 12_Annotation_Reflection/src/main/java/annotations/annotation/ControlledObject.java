@@ -1,12 +1,12 @@
-package annotation;
+package annotations.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-@Target(value= ElementType.METHOD)
+@Target(value= ElementType.TYPE)
 @Retention(value= RetentionPolicy.RUNTIME)
-public @interface ValueObject {
-    int time() default 10;
+public @interface ControlledObject {
+    String name() default "droid00";
 }

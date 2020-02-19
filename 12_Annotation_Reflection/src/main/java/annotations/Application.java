@@ -1,4 +1,6 @@
-import model.Droids;
+package annotations;
+
+import annotations.model.Droids;
 
 public class Application {
     public static void main(String[] args) throws NoSuchMethodException {
