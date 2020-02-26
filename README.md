@@ -5,7 +5,7 @@
 
 ## Status of work
 
-| Home Work | Status | Refactored |
+| HomeWork | Status | Refactored |
 | ------------- | ------------- | ------------- |
 | 3_OOP | DONE | NO |
 | 3_OOP_Game | DONE | NO |
@@ -15,8 +15,8 @@
 | 9_Collections_Enums | DONE | NO |
 | 10_Lambda | DONE | NO |
 | 11_String | 30% | NO |
-| 12_Annotation_Reflection | 60% | NO |
-| 13_IO | 0% | NO |
+| 12_Annotation_Reflection | DONE | NO |
+| 13_IO | 20% | NO |
 | 14_XML | 0% | NO |
 | 15_JSON | 0% | NO |
 | 16_Design_Patterns | 0% | NO |
