@@ -21,6 +21,8 @@
         <module>12_Annotation_Reflection</module>
         <module>13_IO</module>
         <module>14_XML</module>
+        <module>15_JSON</module>
+        <module>16_Design_Patterns</module>
     </modules>
 
 

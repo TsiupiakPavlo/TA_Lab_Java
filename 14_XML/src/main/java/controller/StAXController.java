@@ -1,7 +1,8 @@
 package controller;
 
 import com.sun.jdi.Value;
-import model.*;
+import model.Chars;
+import model.Sites;
 
 import javax.xml.namespace.QName;
 import javax.xml.stream.XMLEventReader;
@@ -27,8 +28,8 @@ public class StAXController {
     }
 
     public List<Sites> parseDoc() throws FileNotFoundException {
-        List<Sites> candies = new ArrayList<>();
-        Sites sites = null;
+        List<Sites> sites = new ArrayList<>();
+        Sites site = null;
         Value value = null;
         Chars chars = null;
         List<Chars> charsList = null;
@@ -43,81 +44,62 @@ public class StAXController {
                     StartElement startElement = xmlEvent.asStartElement();
                     String name = startElement.getName().getLocalPart();
                     switch (name) {
-                        case "candy":
-                            candy = new Candy();
-                            Attribute candyId = startElement.getAttributeByName(new QName("candyId"));
-                            if (candyId != null) {
-                                candy.setCandyId(Integer.parseInt(candyId.getValue()));
+                        case "site":
+                            site = new Sites();
+                            Attribute siteTitle = startElement.getAttributeByName(new QName("title"));
+                            if (siteTitle != null) {
+                                site.setTitle(xmlEvent.asCharacters().getData());
                             }
                             break;
-                        case "candyName":
+                        case "site_type":
                             xmlEvent = xmlEventReader.nextEvent();
-                            assert candy != null;
-                            candy.setCandyName(xmlEvent.asCharacters().getData());
+                            assert site != null;
+                            site.setSiteType(xmlEvent.asCharacters().getData());
                             break;
-                        case "energy":
+                        case "chars":
                             xmlEvent = xmlEventReader.nextEvent();
-                            assert candy != null;
-                            candy.setEnergy(Double.parseDouble(xmlEvent.asCharacters().getData()));
+                            chars = new Chars();
                             break;
-                        case "type":
+                        case "mailPresence":
                             xmlEvent = xmlEventReader.nextEvent();
-                            assert candy != null;
-                            candy.setType(Type.valueOf(xmlEvent.asCharacters().getData()));
+                            assert chars != null;
+                            chars.setMailPresence(Boolean.parseBoolean(xmlEvent.asCharacters().getData()));
                             break;
-                        case "value":
+                        case "newsPresence":
                             xmlEvent = xmlEventReader.nextEvent();
-                            value = new Value();
+                            assert chars != null;
+                            chars.setNewsPresence(Boolean.parseBoolean(xmlEvent.asCharacters().getData()));
                             break;
-                        case "protein":
+                        case "archivePresence":
                             xmlEvent = xmlEventReader.nextEvent();
-                            assert value != null;
-                            value.setProtein(Double.parseDouble(xmlEvent.asCharacters().getData()));
+                            assert chars != null;
+                            chars.setArchivePresence(Boolean.parseBoolean(xmlEvent.asCharacters().getData()));
                             break;
-                        case "fat":
+                        case "vote":
                             xmlEvent = xmlEventReader.nextEvent();
-                            assert value != null;
-                            value.setFat(Double.parseDouble(xmlEvent.asCharacters().getData()));
+                            assert chars != null;
+                            chars.setVote(xmlEvent.asCharacters().getData());
                             break;
-                        case "carbohydrate":
+                        case "payment": {
                             xmlEvent = xmlEventReader.nextEvent();
-                            assert value != null;
-                            value.setCarbohydrate(Double.parseDouble(xmlEvent.asCharacters().getData()));
-                            break;
-                        case "productionName":
-                            xmlEvent = xmlEventReader.nextEvent();
-                            assert candy != null;
-                            candy.setProductionName(xmlEvent.asCharacters().getData());
-                            break;
-                        case "charsList": {
-                            xmlEvent = xmlEventReader.nextEvent();
-                            charsList = new ArrayList<>();
+                            assert chars != null;
+                            chars.setPayment(Boolean.parseBoolean(xmlEvent.asCharacters().getData()));
                             break;
                         }
-                        case "ingredient":
+                        case "auth_access":
                             xmlEvent = xmlEventReader.nextEvent();
-                            ingredient = new Ingredient();
-                            break;
-                        case "ingredientName":
-                            xmlEvent = xmlEventReader.nextEvent();
-                            assert ingredient != null;
-                            ingredient.setIngredientName(xmlEvent.asCharacters().getData());
-                            break;
-                        case "weight":
-                            xmlEvent = xmlEventReader.nextEvent();
-                            assert ingredient != null;
-                            ingredient.setWeight(Double.parseDouble(xmlEvent.asCharacters().getData()));
-                            Objects.requireNonNull(charsList).add(ingredient);
+                            assert site != null;
+                            site.setAuthAccess(Boolean.parseBoolean(xmlEvent.asCharacters().getData()));
                             break;
                     }
                 }
 
                 if (xmlEvent.isEndElement()) {
                     EndElement endElement = xmlEvent.asEndElement();
-                    if (endElement.getName().getLocalPart().equals("candy")) {
-                        Objects.requireNonNull(candy).setValue(value);
-                        candy.setIngredients(charsList);
-                        candies.add(candy);
+                    if (endElement.getName().getLocalPart().equals("site")) {
+                        //Objects.requireNonNull(site).setValue(value);
+                        site.setChars(charsList);
+                        sites.add(site);
                     }
                 }
             }
@@ -125,6 +107,6 @@ public class StAXController {
             System.out.println(Arrays.toString(e.getStackTrace()));
             System.out.println("Parser failed!");
         }
-        return candies;
+        return sites;
     }
 }

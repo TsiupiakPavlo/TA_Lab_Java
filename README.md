@@ -19,7 +19,7 @@
 | 13_IO | 80% | NO |
 | 14_XML | 40% | NO |
 | 15_JSON | 0% | NO |
-| 16_Design_Patterns | 0% | NO |
+| 16_Design_Patterns | 60% | NO |
 | 17_Database | 0% | NO |
 | 18_JDBC | 0% | NO |
 

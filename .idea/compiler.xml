@@ -6,18 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="14_XML" />
-        <module name="10_Lambda" />
-        <module name="3_OOP_HomeWork" />
-        <module name="5_NestedClasses_HomeWork" />
-        <module name="6_Logging" />
+        <module name="11_String" />
+        <module name="12_Annotation_Reflection" />
+        <module name="15_JSON" />
+        <module name="16_Design_Patterns" />
         <module name="9_CollectionsEnums" />
         <module name="8_Generics" />
-        <module name="3_OOP_HomeWork_Game" />
-        <module name="11_String" />
-        <module name="13_IO" />
+        <module name="6_Logging" />
+        <module name="10_Lambda" />
         <module name="8_ArraysCollections" />
-        <module name="12_Annotation_Reflection" />
+        <module name="13_IO" />
+        <module name="3_OOP_HomeWork" />
+        <module name="5_NestedClasses_HomeWork" />
+        <module name="14_XML" />
+        <module name="3_OOP_HomeWork_Game" />
       </profile>
     </annotationProcessing>
   </component>
