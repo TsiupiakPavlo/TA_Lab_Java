@@ -20,6 +20,7 @@
         <module>11_String</module>
         <module>12_Annotation_Reflection</module>
         <module>13_IO</module>
+        <module>14_XML</module>
     </modules>
 
 

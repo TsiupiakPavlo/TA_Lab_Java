@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+    <xs:element name="sites">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="site" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="title" type="xs:string" />
+                            <xs:element name="site_type" type="xs:string" />
+                            <xs:element name="chars">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="mailPresence" type="xs:boolean" />
+                                        <xs:element name="newsPresence" type="xs:boolean" />
+                                        <xs:element name="archivePresence" type="xs:boolean" />
+                                        <xs:element name="vote" type="xs:string" />
+                                        <xs:element name="payment" type="xs:boolean" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="auth_access" type="xs:boolean" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

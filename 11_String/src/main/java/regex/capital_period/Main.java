@@ -1,10 +1,9 @@
 package regex.capital_period;
 
 import org.apache.log4j.Logger;
-import string_utils.StringUtils;
 
 public class Main {
-    final static Logger logger = Logger.getLogger(StringUtils.class);
+    final static Logger logger = Logger.getLogger(Main.class);
 
     public boolean checkStartCapitalEndPeriod(String s) {
         return s.matches("^[A-Z].*\\.$");
