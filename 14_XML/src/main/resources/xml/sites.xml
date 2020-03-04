@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sites xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="sites.xsd">
+    <site>
+        <title>MySite</title>
+        <site_type>NEWS</site_type>
+        <chars>
+            <mailPresence>true</mailPresence>
+            <newsPresence>true</newsPresence>
+            <archivePresence>false</archivePresence>
+            <vote>YES</vote>
+            <payment>true</payment>
+        </chars>
+        <auth_access>true</auth_access>
+    </site>
+    <site>
+        <title>YourSite</title>
+        <site_type>ADVERTISING</site_type>
+        <chars>
+            <mailPresence>false</mailPresence>
+            <newsPresence>false</newsPresence>
+            <archivePresence>false</archivePresence>
+            <vote>NO</vote>
+            <payment>false</payment>
+        </chars>
+        <auth_access>false</auth_access>
+    </site>
+    <site>
+        <title>SomeSite</title>
+        <site_type>PORTAL</site_type>
+        <chars>
+            <mailPresence>true</mailPresence>
+            <newsPresence>false</newsPresence>
+            <archivePresence>false</archivePresence>
+            <vote>YES</vote>
+            <payment>true</payment>
+        </chars>
+        <auth_access>true</auth_access>
+    </site>
+</sites>

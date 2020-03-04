@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="14_XML" />
         <module name="10_Lambda" />
         <module name="3_OOP_HomeWork" />
         <module name="5_NestedClasses_HomeWork" />
