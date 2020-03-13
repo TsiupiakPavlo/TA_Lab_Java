@@ -23,6 +23,7 @@
         <module>14_XML</module>
         <module>15_JSON</module>
         <module>16_Design_Patterns</module>
+        <module>18_JDBC</module>
     </modules>
 
 

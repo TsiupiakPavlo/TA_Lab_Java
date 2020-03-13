@@ -21,7 +21,7 @@
 | 15_JSON | 0% | NO |
 | 16_Design_Patterns | 60% | NO |
 | 17_Database | 0% | NO |
-| 18_JDBC | 0% | NO |
+| 18_JDBC | 40% | NO |
 
 ---
 

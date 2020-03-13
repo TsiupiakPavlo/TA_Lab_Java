@@ -10,6 +10,7 @@
         <module name="12_Annotation_Reflection" />
         <module name="15_JSON" />
         <module name="16_Design_Patterns" />
+        <module name="18_JDBC" />
         <module name="9_CollectionsEnums" />
         <module name="8_Generics" />
         <module name="6_Logging" />
